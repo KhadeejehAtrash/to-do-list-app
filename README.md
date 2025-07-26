@@ -1,27 +1,46 @@
-# ToDoListApp
+# Angular To-Do List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+## What this app does
 
-## Development server
+This is a simple To-Do List application built with Angular standalone components.  
+Users can:
+- Add new tasks  
+- Mark tasks as completed  
+- Delete tasks  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The app demonstrates basic Angular concepts such as component state management, two-way data binding with `ngModel`, and usage of `CommonModule` and `FormsModule`.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## What I changed or added
 
-## Build
+- Created the `AppComponent` as a standalone Angular component.  
+- Implemented functions to add, toggle completion, and delete tasks.  
+- Used Angular's `FormsModule` to enable two-way data binding for the task input.  
+- Imported `CommonModule` to support directives like `*ngFor`.  
+- Managed state locally inside the component for simplicity.  
+- Set up multiple commits during development to track progress.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## Challenges faced
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Understanding and configuring standalone components in Angular, especially adding necessary imports (`CommonModule`, `FormsModule`).  
+- Fixing errors related to `ngModel` binding and structural directives like `*ngFor`.  
+- Learning to properly configure Git and GitHub, including push and remote URL setup.  
+- Making sure commit history shows correctly on GitHub.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## How to run the app locally
 
-## Further help
+1. Make sure you have [Node.js](https://nodejs.org/) and Angular CLI installed.  
+2. Clone this repo and navigate to the project folder.  
+3. Run `npm install` to install dependencies.  
+4. Run `ng serve` to start the development server.  
+5. Open your browser at `http://localhost:4200` to see the app in action.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+Feel free to explore and modify the code!
+
