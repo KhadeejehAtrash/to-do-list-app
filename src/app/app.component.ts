@@ -24,4 +24,8 @@ export class AppComponent {
   toggleDone(index: number) {
     this.tasks[index].completed = !this.tasks[index].completed;
   }
+
+  deleteTask(index: number) {
+    this.tasks.splice(index, 1);
+  }
 }
