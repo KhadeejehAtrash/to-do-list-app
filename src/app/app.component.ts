@@ -21,4 +21,7 @@ export class AppComponent {
     }
   }
 
+  toggleDone(index: number) {
+    this.tasks[index].completed = !this.tasks[index].completed;
+  }
 }
